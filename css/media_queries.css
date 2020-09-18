@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+  .w_25 {
+    width: auto;
+  }
+
+  .d_none {
+    display: flex;
+  }
+
+  .space_btw {
+    justify-content: space-between;
+  }
+
+  .w_98 {
+    width: 70%;
+    margin: auto;
+  }
+
+  .font_size {
+    font-size: 12px;
+  }
+
+  .font_size_l {
+    font-size: 20px;
+  }
+
+  .h_vh {
+    height: 7vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .w_98 {
+    width: 60%;
+    margin-left: 5%;
+  }
+
+  .d_lg {
+    display: flex;
+  }
+}
