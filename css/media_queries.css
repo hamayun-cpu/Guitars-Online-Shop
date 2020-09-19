@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  .w_25 {
+  .w_25_s {
     width: auto;
   }
 
@@ -33,7 +33,7 @@
   }
 
   .bg_h {
-    height: 40vh;
+    height: 50vh;
   }
 
   .grad h1 {
@@ -95,6 +95,19 @@
 
   .font_lar {
     font-size: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 7px;
+  }
+
+  .fot_w {
+    width: 80%;
+  }
+
+  .fot_grid {
+    column-gap: 10px;
   }
 }
 
