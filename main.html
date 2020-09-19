@@ -43,7 +43,9 @@
         </div>
 
         <div class="d_none align_self">
-          <button class="bg_red border_none color_w">POST AN AD</button>
+          <button type="button" class="bg_red border_none color_w">
+            POST AN AD
+          </button>
         </div>
       </div>
       <div class="align_self h_vh space_btw d_lg justify_end color_w bold pr-7">
@@ -55,21 +57,105 @@
         />
       </div>
     </nav>
-    <div class="bg_h">
-      <div class="d_flex flex_col justify_center z-in1 aa grad">
-        12345678909876543212345jhhh
-        <br />
-        12345678909876543212345jhhh
-        <br />
-        12345678909876543212345jhhh
-        <br />
-        12345678909876543212345jhhh
-        <br />
-        12345678909876543212345jhhh
-        <br />
-        12345678909876543212345jhhh
-        <br />
-      </div>
-    </div>
+    <main class="mt">
+      <!-- seaction for searh button and inputs -->
+      <section class="bg_h">
+        <div class="d_flex flex_col justify_end grad color_w">
+          <h1 class="txt_cent bold">GUITARS</h1>
+          <p class="txt_cent">
+            Buying And Selling Couldn't be Simpler than this!
+          </p>
+          <div class="inp d_flex justify_center col-dir-sm align_self m-b-20">
+            <div class="d_flex">
+              <div class="dropdown h_100 d_flex">
+                <button type="button" class="dropbtn border_none align_self">
+                  <i class="fa fa-caret-down"></i>
+                  GUITAR TYPES
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">ELECTRIC</a>
+                  <a href="#">ACOUSTIC</a>
+                  <a href="#">BASS</a>
+                </div>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="h_100 pad-3 border_none bor_rad-0 w-l"
+                  placeholder="What type Do You Want?"
+                />
+              </div>
+            </div>
+            <div class="d_flex mt-s">
+              <div>
+                <input
+                  type="text"
+                  class="h_100 pad-3 border_none bor_rad-0 w-l m"
+                  placeholder="Brand?"
+                />
+              </div>
+              <div>
+                <button type="button" class="but_s pad-3 border_none bg_black">
+                  <a
+                    href="search.html"
+                    target="_blank"
+                    rel="noopener"
+                    class="no_decor bold color_g"
+                    >SEARCH</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section for hot ads -->
+      <section class="mt-10 d_flex w_95 mar-auto">
+        <!-- left arrow -->
+        <button type="button" class="arrow d_flex align_self justify_center">
+          <i class="fas fa-less-than align_self color_r"></i>
+        </button>
+
+        <!-- add -->
+        <div class="mx-3 w_95">
+          <span class="color_g bold font_md"> HOT ADS </span>
+          <div class="mt-10 d_flex">
+            <div class="hot_ad_box">
+              <img src="./images/hot.PNG" alt="guitar picture" />
+            </div>
+            <div class="d_flex flex_col justify_space pl-2">
+              <h3 class="color_r bolder font_lar">YAMAHA NYLON GUITAR</h3>
+              <p class="color_g medium font_md">
+                JR is a 540mm scale length compact acoustic guitar modeled after
+                our long selling FG series
+              </p>
+              <p class="color_g font_md">
+                <span class="medium">MADE IN:</span>
+                <span class="lighter"> indonesia</span>
+              </p>
+              <div class="d_flex">
+                <button
+                  type="button"
+                  class="bg_red border_none color_w bold w_40p"
+                >
+                  99$
+                </button>
+                <button
+                  type="button"
+                  class="bg_red border_none color_w bold w_70p"
+                >
+                  Purchase Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right arrow -->
+        <button type="button" class="arrow d_flex align_self justify_center">
+          <i class="fas fa-greater-than align_self color_r"></i>
+        </button>
+      </section>
+    </main>
   </body>
 </html>
