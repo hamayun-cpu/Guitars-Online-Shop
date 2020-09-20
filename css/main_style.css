@@ -408,3 +408,13 @@ p {
 .border-bottom {
   border-bottom: 1px solid gray;
 }
+
+/* Secondhtml style */
+
+.w_15 {
+  width: 15%;
+}
+
+.w_85 {
+  width: 85%;
+}
