@@ -1,0 +1,290 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.z-in {
+  z-index: 1;
+}
+
+nav,
+.bg,
+footer,
+.big_container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg_black {
+  background-color: #202020;
+}
+
+.bg_red {
+  background-color: #d35266;
+}
+
+.pos_fix {
+  position: fixed;
+  top: 0;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.h_vh {
+  height: 5vh;
+}
+
+.w_25_s {
+  width: 25%;
+}
+
+.align_self {
+  align-self: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color_r {
+  color: #d35266;
+}
+
+.color_w {
+  color: white;
+}
+
+.color_g {
+  color: #888;
+}
+
+.font_size {
+  font-size: 8px;
+}
+
+.font_size_l {
+  font-size: 15px;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.justify_end {
+  justify-content: flex-end;
+}
+
+.d_none {
+  display: none;
+}
+
+.mr_2 {
+  margin-right: 2px;
+}
+
+.hover_red:hover {
+  color: #d35266;
+}
+
+.no_decor {
+  text-decoration: none;
+}
+
+.w_98 {
+  width: 98%;
+}
+
+.mar-auto {
+  margin: auto;
+}
+
+.border_none {
+  border: none;
+}
+
+.border_rad_1 {
+  border-radius: 0.1em;
+}
+
+.d_lg {
+  display: none;
+}
+
+.box_round {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.pr-7 {
+  padding-right: 14px;
+}
+
+.grad {
+  background: rgba(201, 43, 43, 0.39);
+  width: 100%;
+  height: 100%;
+}
+
+.flex_col {
+  flex-direction: column;
+}
+
+.mt {
+  margin-top: 5vh;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.justify_space {
+  justify-content: space-between;
+}
+
+.border {
+  border: solid 1px gray;
+}
+
+.pading {
+  padding: 15px;
+}
+
+.mb-2 {
+  margin-bottom: 2px;
+}
+
+.fot_hr {
+  background-color: red;
+  height: 1px;
+  margin: 2px 0;
+}
+
+.pt-1 {
+  padding-top: 3px;
+}
+
+.end_txt {
+  text-align: end;
+}
+
+.py-2 {
+  padding: 11px 0;
+}
+
+.fot_grid {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4px;
+}
+
+.fot_box {
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.fot_w {
+  width: 88%;
+}
+
+.border-top {
+  border-top: 1px solid gray;
+}
+
+/* .form_box_padding {
+    padding: 15px;
+  } */
+
+.bg {
+  height: 25vh;
+  background-image: url("../images/bg_image.PNG");
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg h1,
+.bg p {
+  margin: 0;
+  padding: 0 0 0 12%;
+}
+
+.d_grid {
+  display: grid;
+}
+
+.grid {
+  grid-template-columns: 2fr 3fr 3fr 1fr;
+  column-gap: 1px;
+  width: 76%;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.mt-3 {
+  margin-top: 10px;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.ml-3 {
+  margin-left: 2px;
+}
+
+.ml-6 {
+  margin-left: 3px;
+}
+
+.font_13 {
+  font-size: 13px;
+}
+
+.w_90 {
+  width: 90%;
+}
+
+.min_w_52 {
+  min-width: 52px;
+  display: inline-block;
+}
+
+.ml-10 {
+  margin-left: 7px;
+}
+
+.big_container {
+  grid-template-columns: 30% 70%;
+}
+
+.w_95 {
+  width: 95%;
+}
+
+.frms {
+  padding: 5px 2px 5px 0;
+  font-size: 14px;
+}
+
+.border_right {
+  border-right: 1px solid lightgray;
+}
+
+.ml-3p {
+  margin-left: 3px;
+}
+
+.frm_hr {
+  background-color: lightgray;
+  height: 1px;
+}
+
+.border_bottom {
+  border-bottom: 1px solid lightgray;
+}

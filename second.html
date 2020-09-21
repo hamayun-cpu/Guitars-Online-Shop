@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main_style.css" />
-    <link rel="stylesheet" href="./css/media_queries.css" />
+    <link rel="stylesheet" href="./css/second_style.css" />
+    <link rel="stylesheet" href="./css/media_queries_second.css" />
     <script
       src="https://kit.fontawesome.com/1ba545dca5.js"
       crossorigin="anonymous"
@@ -43,7 +43,7 @@
         </div>
 
         <div class="d_none align_self">
-          <button type="button" class="bg_red border_none color_w">
+          <button type="button" class="bg_red border_none border_rad_1 color_w">
             POST AN AD
           </button>
         </div>
@@ -53,16 +53,157 @@
         <img
           src="./images/box.PNG"
           alt="avatar"
-          class="box_round border_none align_self"
+          class="box_round border_none border_rad_1 align_self"
         />
       </div>
     </nav>
-    <main class="mt d_flex">
-      <div class="w_15">1</div>
-      <div class="w_85">2</div>
+    <main class="mt">
+      <section class="bg">
+        <div class="grad color_w d_flex flex_col justify_center">
+          <div>
+            <h1>GUITARS</h1>
+            <p>Search around 71000 items are waiting to be sold!</p>
+          </div>
+          <div class="d_grid grid mx-auto mt-3">
+            <div>
+              <button class="bg_white d_flex w_100 py-2 border_none font_13">
+                <i class="fas fa-caret-down ml-3"></i>
+                <span class="color_g ml-6">Basses</span>
+              </button>
+            </div>
+            <div class="bg_white w_100 py-2 border_none font_13">
+              <span class="color_g ml-6">Fender</span>
+            </div>
+            <div class="bg_white w_100 py-2 border_none font_13">
+              <span class="color_g ml-6">U.S.</span>
+            </div>
+            <div class="d_flex justify_end">
+              <button
+                class="bg_black w_90 w_52 border_none d_flex justify_center"
+              >
+                <a href="#" rel="noopener" class="color_g no_decor align_self">
+                  Search
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w_95 d_grid big_container border_right">
+        <div class="frms border_right">
+          <form class="d_flex_md">
+            <div class="d_flex">
+              <input type="checkbox" id="rent" name="rent" value="rent" />
+              <label for="rent" class="color_g mx-10 align_self"> Rent</label>
+            </div>
+            <div class="d_flex">
+              <input type="checkbox" id="buy" name="buy" value="Ownership" />
+              <label for="buy" class="color_g mx-10 align_self">
+                Ownership</label
+              >
+            </div>
+          </form>
+          <div class="ml-3p mt-10">
+            Type
+            <hr class="frm_hr border_none" />
+            <form>
+              <div class="d_flex">
+                <input
+                  type="checkbox"
+                  id="electric"
+                  name="electric"
+                  value="electric"
+                />
+                <label for="electric" class="color_g mx-10"> Electric</label>
+              </div>
+              <div class="d_flex mt-10">
+                <input
+                  type="checkbox"
+                  id="Accoustic"
+                  name="Accoustic"
+                  value="Accoustic"
+                />
+                <label for="Accoustic" class="color_g mx-10"> Accoustic</label>
+              </div>
+              <div class="d_flex mt-10">
+                <input type="checkbox" id="Nylon" name="Nylon" value="Nylon" />
+                <label for="Nylon" class="color_g mx-10"> Nylon</label>
+              </div>
+            </form>
+          </div>
+          <div class="ml-3p mt-10">
+            Brand
+            <hr class="frm_hr border_none" />
+            <form>
+              <div class="d_flex">
+                <input
+                  type="checkbox"
+                  id="Yamaha"
+                  name="Yamaha"
+                  value="Yamaha"
+                />
+                <label for="Yamaha" class="color_g mx-10"> Yamaha</label>
+              </div>
+              <div class="d_flex mt-10">
+                <input
+                  type="checkbox"
+                  id="Fender"
+                  name="Fender"
+                  value="Fender"
+                />
+                <label for="Fender" class="color_g mx-10"> Fender</label>
+              </div>
+              <div class="d_flex mt-10">
+                <input
+                  type="checkbox"
+                  id="Gibson"
+                  name="Gibson"
+                  value="Gibson"
+                />
+                <label for="Gibson" class="color_g mx-10"> Gibson</label>
+              </div>
+            </form>
+          </div>
+          <div class="ml-3p mt-10">
+            Price Range
+            <hr class="frm_hr border_none" />
+            <form>
+              <div class="d_flex">
+                <input
+                  type="checkbox"
+                  id="range1"
+                  name="range1"
+                  value="range1"
+                />
+                <label for="range1" class="color_g mx-10"> 50$ - 100$</label>
+              </div>
+              <div class="d_flex mt-10">
+                <input
+                  type="checkbox"
+                  id="range2"
+                  name="range2"
+                  value="range2"
+                />
+                <label for="range2" class="color_g mx-10"> 100$ - 200$</label>
+              </div>
+              <div class="d_flex mt-10">
+                <input
+                  type="checkbox"
+                  id="range3"
+                  name="range3"
+                  value="range3"
+                />
+                <label for="range3" class="color_g mx-10"> +200$</label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div>2</div>
+      </section>
     </main>
     <footer>
-      <div class="fot_grid fot_w mar-auto py-2">
+      <div class="fot_grid d_grid fot_w mar-auto py-2">
         <div class="pt-1">
           <div class="d_flex justify_center mb-2">
             <i class="fas fa-guitar color_r font_size_l mr_2"></i>
@@ -77,7 +218,7 @@
         </div>
         <div>
           <span class="font_size color_r bold">PRODUCTS</span>
-          <hr class="fot_hr border_none" />
+          <hr class="fot_hr border_none border_rad_1" />
           <div class="d_flex justify_space font_size color_g">
             <span>Pianos </span>
             <span>Keyboard </span>
@@ -105,7 +246,7 @@
         </div>
         <div>
           <span class="font_size color_r bold">NAVIGATION</span>
-          <hr class="fot_hr border_none" />
+          <hr class="fot_hr border_none border_rad_1" />
           <div class="d_flex flex_col">
             <span class="font_size color_g">HOME</span>
             <span class="font_size color_g">SIGN IN</span>
