@@ -231,6 +231,11 @@ p {
   margin-left: 7px;
 }
 
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
 .mt-s {
   margin-top: 7px;
 }
