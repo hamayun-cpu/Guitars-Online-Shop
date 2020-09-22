@@ -34,3 +34,8 @@ Contributions, issues and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Ui/Ux by Mohammad Awad
+- Behance: [@behancehandle](https://www.behance.net/M_Awad)
