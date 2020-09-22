@@ -234,10 +234,6 @@ footer,
   margin-left: 2px;
 }
 
-.ml-6 {
-  margin-left: 3px;
-}
-
 .font_13 {
   font-size: 13px;
 }
@@ -308,11 +304,6 @@ footer,
 .min_h {
   min-height: 145px;
 }
-
-/* .details p {
-  padding: 0;
-  margin: 0;
-} */
 
 .color_b {
   color: #383838;
