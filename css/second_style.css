@@ -47,6 +47,10 @@ footer,
   align-self: center;
 }
 
+.align_cont_cent {
+  align-content: center;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -148,11 +152,7 @@ footer,
 }
 
 .border {
-  border: solid 1px gray;
-}
-
-.pading {
-  padding: 15px;
+  border: solid 1px lightgray;
 }
 
 .mb-2 {
@@ -194,10 +194,6 @@ footer,
 .border-top {
   border-top: 1px solid gray;
 }
-
-/* .form_box_padding {
-    padding: 15px;
-  } */
 
 .bg {
   height: 25vh;
@@ -299,14 +295,64 @@ footer,
 
 .ads {
   padding-left: 2px;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .ads img {
-  height: auto;
+  max-height: 165px;
+  min-height: 145px;
+  height: 100%;
   width: 98%;
 }
 
-.h_fit_con {
-  height: fit-content;
+.min_h {
+  min-height: 145px;
+}
+
+/* .details p {
+  padding: 0;
+  margin: 0;
+} */
+
+.color_b {
+  color: #383838;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.pad_mar-0 {
+  padding: 0;
+  margin: 0;
+}
+
+.my-8 {
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.px-6 {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.bg_gr {
+  background-color: #efefef;
+}
+
+.border-top-bopttom {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.ml-6 {
+  margin-left: 6px;
+}
+
+.hover2_red:hover {
+  color: white;
+  background-color: #d35266;
+  border: none;
 }
