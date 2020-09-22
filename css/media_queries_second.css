@@ -52,6 +52,20 @@
     margin-left: 8px;
     margin-right: 8px;
   }
+
+  .fnt_size_14 {
+    font-size: 14px;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+    margin-left: 7px;
+  }
+
+  .ads {
+    padding-left: 7px;
+    grid-template-columns: 1fr 3fr;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -66,5 +80,14 @@
 
   .frms {
     padding: 25px 15% 20px 80px;
+  }
+
+  .mt-20 {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  .ads {
+    padding-left: 10px;
   }
 }
