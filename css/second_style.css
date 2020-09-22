@@ -238,6 +238,13 @@ footer,
   font-size: 13px;
 }
 
+.but_s {
+  width: 85%;
+  min-width: 50px;
+  border-radius: 2px;
+  margin-left: 7px;
+}
+
 .w_90 {
   width: 90%;
 }
