@@ -1,4 +1,5 @@
-body {
+body,
+h2 {
   padding: 0;
   margin: 0;
 }
@@ -229,11 +230,6 @@ p {
   min-width: 100px;
   border-radius: 2px;
   margin-left: 7px;
-}
-
-h3 {
-  padding: 0;
-  margin: 0;
 }
 
 .mt-s {
