@@ -244,7 +244,15 @@ p {
 }
 
 .m-b-20 {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+.inp {
+  min-width: 300px;
+}
+
+.min_w_s {
+  width: 95.4%;
 }
 
 .mt-10 {

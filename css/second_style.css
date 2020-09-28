@@ -10,7 +10,8 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .z-in {
@@ -181,12 +182,12 @@ body {
 }
 
 .py-2 {
-  padding: 11px 0;
+  padding: 10px 0;
 }
 
 .fot_grid {
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 4px;
+  row-gap: 4px;
 }
 
 .fot_box {
@@ -203,7 +204,7 @@ body {
 }
 
 .bg {
-  height: 25vh;
+  height: 37vh;
   background-image: url("../images/bg_image.PNG");
   background-position: center center;
   background-size: cover;
@@ -220,8 +221,8 @@ body {
 }
 
 .grid {
-  grid-template-columns: 2fr 3fr 3fr 1fr;
-  column-gap: 1px;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 2px;
   width: 76%;
 }
 
@@ -246,10 +247,8 @@ body {
 }
 
 .but_s {
-  width: 85%;
-  min-width: 50px;
+  width: 100%;
   border-radius: 2px;
-  margin-left: 7px;
 }
 
 .w_90 {
