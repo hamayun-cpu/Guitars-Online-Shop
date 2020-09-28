@@ -401,15 +401,13 @@ p {
   padding: 9px 0;
 }
 
-.fot_grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 4px;
-}
-
 .fot_box {
   padding: 2px;
   margin-left: 5px;
+}
+
+.font_10 {
+  font-size: 10px;
 }
 
 .fot_w {
