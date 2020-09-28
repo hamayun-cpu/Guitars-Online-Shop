@@ -2,16 +2,12 @@ body,
 h2 {
   padding: 0;
   margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .z-in {
   z-index: 1;
-}
-
-nav,
-.bg_gray,
-.inp {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bg_black {
