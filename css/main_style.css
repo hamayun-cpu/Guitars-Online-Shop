@@ -4,14 +4,15 @@
 }
 
 .fnt-got {
-  font-family: gotham, sans-serif;
+  font-family: gotham, Arial, Helvetica, sans-serif;
 }
 
 body,
 h2 {
   padding: 0;
   margin: 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .z-in {
@@ -72,7 +73,7 @@ h2 {
 }
 
 .font_size {
-  font-size: 9px;
+  font-size: 8px;
 }
 
 .font_size_l {
@@ -234,10 +235,8 @@ p {
 }
 
 .but_s {
-  width: 80%;
-  min-width: 100px;
+  width: 100%;
   border-radius: 2px;
-  margin-left: 7px;
 }
 
 .mt-s {

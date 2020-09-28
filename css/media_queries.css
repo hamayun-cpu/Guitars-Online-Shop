@@ -50,9 +50,9 @@
   }
 
   .but_s {
-    width: 130px;
-    color: #888;
-    border-radius: 2px;
+    min-width: 100px;
+    margin-left: 7px;
+    height: 89%;
   }
 
   .mt-s {
