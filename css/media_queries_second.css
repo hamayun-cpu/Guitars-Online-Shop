@@ -28,6 +28,10 @@
     display: flex;
   }
 
+  .d_non {
+    display: block;
+  }
+
   .space_btw {
     justify-content: space-between;
   }
@@ -88,6 +92,10 @@
   .ads {
     padding-left: 7px;
     grid-template-columns: 35% 65%;
+  }
+
+  .big_container {
+    grid-template-columns: 30% 70%;
   }
 }
 

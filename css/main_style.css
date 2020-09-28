@@ -237,6 +237,7 @@ p {
 .but_s {
   width: 100%;
   border-radius: 2px;
+  padding: 3px 0;
 }
 
 .mt-s {

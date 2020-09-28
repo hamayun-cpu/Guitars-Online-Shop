@@ -185,10 +185,9 @@ body {
   padding: 10px 0;
 }
 
-/* .fot_grid {
-  grid-template-columns: repeat(4, 1fr);
-  row-gap: 4px;
-} */
+.d_non {
+  display: none;
+}
 
 .fot_box {
   padding: 2px;
@@ -265,7 +264,7 @@ body {
 }
 
 .big_container {
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 95%;
 }
 
 .w_95 {
@@ -308,8 +307,6 @@ body {
 }
 
 .ads img {
-  max-height: 165px;
-  min-height: 145px;
   height: 100%;
   width: 98%;
 }
