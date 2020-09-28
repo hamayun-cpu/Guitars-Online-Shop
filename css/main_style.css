@@ -64,7 +64,7 @@ h2 {
 }
 
 .font_size {
-  font-size: 8px;
+  font-size: 9px;
 }
 
 .font_size_l {
@@ -97,6 +97,10 @@ h2 {
 
 .w_98 {
   width: 98%;
+}
+
+.no_wrap {
+  white-space: nowrap;
 }
 
 .mar-auto {
