@@ -185,10 +185,10 @@ body {
   padding: 10px 0;
 }
 
-.fot_grid {
+/* .fot_grid {
   grid-template-columns: repeat(4, 1fr);
   row-gap: 4px;
-}
+} */
 
 .fot_box {
   padding: 2px;
