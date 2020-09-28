@@ -62,7 +62,11 @@ body {
 }
 
 .font_size {
-  font-size: 8px;
+  font-size: 9px;
+}
+
+.no_wrap{
+  white-space: nowrap;
 }
 
 .font_size_l {
