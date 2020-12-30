@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/hamayun-cpu/Guitars-Online-Shop/feature/main.html)
+[Live Demo Link](https://rawcdn.githack.com/hamayun-cpu/Guitars-Online-Shop/f8746bb61fcd5d983ddf98b49a3321b9e410f394/main.html)
 
 ## Getting Started
 
