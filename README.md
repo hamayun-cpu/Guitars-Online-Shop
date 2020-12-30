@@ -4,7 +4,7 @@
 
 > This project consists of building a Web Page for a Guitar Online shop. In this project i have used html,css and media queries for making the responsive front-end.
 
-![Alt text](https://github.com/hamayun-cpu/Guitars-Online-Shop/blob/feature/images/ss.PNG)
+![Alt text](https://github.com/hamayun-cpu/Guitars-Online-Shop/blob/master/images/ss.PNG)
 
 ## Built With
 
